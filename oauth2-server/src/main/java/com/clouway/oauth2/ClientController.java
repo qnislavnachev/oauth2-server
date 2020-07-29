@@ -14,6 +14,8 @@ class ClientController implements ClientRequest {
   private final ClientRepository clientRepository;
   private final ClientActivity clientActivity;
 
+
+
   ClientController(ClientRepository clientRepository, ClientActivity clientActivity) {
     this.clientRepository = clientRepository;
     this.clientActivity = clientActivity;
